@@ -1,7 +1,21 @@
-# Vue.js
+# Withgoods - Frontend 코드 테스트
 
-This is the Template Repl for Vue.js.
+## 목적, Purpose
+본 코딩 테스트는 **커뮤니케이션 능력**을 테스트하기 위함입니다.<br/>
+**페어 코딩**을 어떻게 진행하는지 알기위함이므로, **짧은 검색은 허용됩니다.**
 
-Vue.js is a library for building user interfaces in JavaScript. This template uses Vite to serve your app.
+## 문제, Problems
+아래의 문제를 순서 상관없이 풀어주시면 됩니다.<br/>
+다 풀도록 설계하지 않았으므로 풀 수 있는것부터 푸시기 바랍니다. **[숫자]** 는 점수입니다.
+1. [**1**] 상단에 Vue 로고 이미지 `logo.png` 를 `logo-inverted.png` 로 바꾸세요.
+2. [**1**] 상단 Vue 로고 이미지 바로 아래 `Hello World` 를 `Code Testing` 으로 바꾸세요.
+3. [**1**] 2 개의 초록색 Vue 링크 클릭시 새 창을 띄워 이동하도록 하세요.
+4. [**2**] Count 버튼을 참조하여 **Count+ 버튼**과 **Count- 버튼**을 만드세요. 최소값은 0 입니다.
+5. [**1**] 아래 List 에 있는 모든 요소들에 hover 이벤트가 적용되어있습니다.<br/>`Add item` 과 `Number of List` 에는 hover 이벤트가 적용되지 않도록 하세요.
+6. [**2**] `Add item` 에 작성한 내용을 아래 리스트의 마지막에 추가하는 이벤트를 작성/연결하세요.
+7. [**2**] 아래 List 중 쓰레기통 모양의 아이콘을 누르면 삭제되는 이벤트를 작성/연결하세요.
+8. [**1**] 하단 2 개 Vue 링크의 색을 위 2 개 초록색 Vue 링크와 동일한 초록색으로 맞추세요.
 
-[Check out the official docs here](https://vuejs.org/).# frontend-code-test
+수고하셨습니다.
+
+위드굿즈
