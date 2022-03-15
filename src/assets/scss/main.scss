@@ -13,12 +13,5 @@ h1, h2, h3, h4, h5, h6 {
   color: #343a40
 }
 
-#app {
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  height: 100vh;
-  background-color: #f8f9fa;
-}
-
 /* https://vuejs.org/v2/api/#v-cloak */
 [v-cloak] { display: none; }

@@ -1,13 +1,12 @@
 <template>
   <main>
     <div id="list-items-wrapper">
-      <list-input :todos="todos"></list-input>
-      <list-stats :todos="todos"></list-stats>
+      <list-input :items="items"></list-input>
+      <list-stats />
       <list-item
-        v-for="todo in todos"
-        :key="todo"
-        :todo="todo"
-        :todos="todos"
+        v-for="item in items"
+        :key="item"
+        :item="item"
       >
       </list-item>
     </div>
@@ -27,7 +26,7 @@ export default {
   },
   data() {
     return {
-      todos: [ 'Alfa', 'Bravo', 'Charlie', 'Delta', 'Echo' ]
+      items: [ 'Alfa', 'Bravo', 'Charlie', 'Delta', 'Echo' ]
     }
   },
 };
