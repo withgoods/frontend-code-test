@@ -2,24 +2,19 @@
   <header>
     <h1>{{ title }}</h1>
     <p>
-      <a href="https://vitejs.dev/guide/features.html" target="_blank">Vite Documentation</a> |
-      <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Documentation</a>
+      <a href="https://vitejs.dev/guide/features.html">Vite Documentation</a> |
+      <a href="https://v3.vuejs.org/">Vue 3 Documentation</a>
     </p>
-    <button @click="count++">count is: {{ count }}</button>
+    <button>count is: 0</button>
   </header>
 </template>
 
 <script>
 export default {
-  data() {
-    return {
-      count: 0
-    }
-  },
   props: {
     title: {
       type: String,
-      default: 'Vue.js Code Testing Page',
+      default: 'Hello World',
     }
   },
 };

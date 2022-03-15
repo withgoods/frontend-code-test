@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/images/logo.png" />
-  <custom-header title="Hello World" />
+  <custom-header />
   <custom-main />
   <custom-footer />
 </template>
