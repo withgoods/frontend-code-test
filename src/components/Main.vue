@@ -15,9 +15,9 @@
 </template>
 
 <script>
-import ListInput from '../list/ListInput.vue'
-import ListStats from '../list/ListStats.vue'
-import ListItem from '../list/ListItem.vue'
+import ListInput from './list/ListInput.vue'
+import ListStats from './list/ListStats.vue'
+import ListItem from './list/ListItem.vue'
 
 export default {
   components: {
@@ -30,10 +30,9 @@ export default {
       todos: [ 'Alfa', 'Bravo', 'Charlie', 'Delta', 'Echo' ]
     }
   },
-  props: {},
-  methods: {},
 };
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/main.scss';
 </style>
